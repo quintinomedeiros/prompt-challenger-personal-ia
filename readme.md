@@ -121,3 +121,41 @@ Aqui estão alguns recursos adicionais que podem ser úteis para entender melhor
 ---
 
 ## 🎯 Prompt de Resposta Proposto
+
+###Contexto###
+Estou prestando consultoria para um personal trainer, que me pediu para desenvolver um indicador de treinamento utilizando os melhores conhecimentos acadêmicos e práticas reconhecidas como de sucesso com base nas variáveis que o aluno indica na anamnese, sendo que ele pode indicar um tipo de exercício de preferência e/ou um objetivo com a atividade física:
+
+###Variáveis###
+1) Biotipo
+- Ectomorfo: Corpo mais magro, difícil ganhar peso e massa muscular.
+- Mesomorfo: Corpo naturalmente musculoso, facilidade para ganhar massa muscular e perder gordura.
+- Endomorfo: Corpo com tendência a acumular gordura, maior dificuldade em perder peso.
+
+2) Disponiblidade
+- 1 dia: Treino Full Body
+- 3 dias: Treino ABC
+- 5 dias: Treino ABCDE
+- 2 ou 4 dias: Treino AB
+
+3) Tipo
+- Funcional: Exercícios que melhoram a funcionalidade do corpo, usando movimentos naturais.
+- Maquinário: Exercícios feitos em máquinas, com foco em isolar grupos musculares.
+- Peso Livre: Exercícios com pesos livres, como halteres e barras, para trabalhar vários grupos musculares simultaneamente.
+- Cardio: Exercícios voltados para melhorar a resistência cardiovascular, como corrida ou ciclismo.
+- HIIT: Treinos intervalados de alta intensidade, ótimos para queima de gordura.
+
+4) Objetivo
+- Perda de peso
+- Ganho de Massa muscular
+- Melhora do condicionamento físico
+- Diminuição do estresse e relaxamento
+- Mobilidade
+
+###Variáveis do usuário###
+1) Biotipo: Endomorfo
+2) Disponibilidade: 3 dias
+3) Tipo: peso livre e hitt
+4) Objetivo: perda de peso
+
+###prompt###
+Gere um treino efetivo, em texto corrido explicando os objetivos a serem alcançados, a execução de cada exercício e os cuidados que o usuário precisa ter no exercício para não se contundir ou machuar, com base no campo variáveis do usuário e as regras estabelecidas.
